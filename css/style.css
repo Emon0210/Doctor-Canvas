@@ -1,0 +1,1352 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800&family=Varela+Round&display=swap');
+
+
+
+
+
+
+
+
+
+
+/********* *******************
+     Global  css start
+*****************************/
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+
+
+
+
+}
+
+
+
+/********* *******************
+     Global  css end
+*****************************/
+
+
+
+
+
+
+
+
+/********* *******************
+     header  css start
+*****************************/
+
+.header-section {
+
+    background: -webkit-linear-gradient(60deg, #f2fbfa, #fff8eb);
+    background: linear-gradient(60deg, #f2fbfa, #fff8eb);
+    padding-top: 10px;
+}
+
+
+.header-section .container {}
+
+
+.header-section .container .row {
+
+    background: #0a3c3f;
+    margin-top: 30px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    width: 101%;
+}
+
+
+
+.header-section .container .row .logo {}
+
+
+.header-section .container .row .logo img {
+
+    padding-left: 15px;
+}
+
+
+
+
+
+
+.header-section .container .row .col-lg-6 {}
+
+.header-section .container .row .col-lg-6 .mid-menu {}
+
+
+.header-section .container .row .col-lg-6 .mid-menu ul {
+
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+
+
+.header-section .container .row .col-lg-6 .mid-menu ul li {
+    margin: 0px 20px;
+
+}
+
+
+.header-section .container .row .col-lg-6 .mid-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+
+
+.header-section .container .row .col-lg-6 .mid-menu ul li a:hover {
+    color: #a9e8e0;
+    transition: 0.3s;
+}
+
+
+
+
+
+.header-section .container .row .col-lg-3 {}
+
+
+.header-section .container .row .col-lg-3 .right-menu {}
+
+.header-section .container .row .col-lg-3 .right-menu ul {
+
+    display: flex;
+    list-style-type: none;
+    margin-top: 22px;
+}
+
+
+.header-section .container .row .col-lg-3 .right-menu ul li {
+
+    margin: 0px 20px;
+}
+
+
+.header-section .container .row .col-lg-3 .right-menu ul li .fa {
+
+    margin: 10px -7px;
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+
+.header-section .container .row .col-lg-3 .right-menu ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+
+
+.header-section .container .row .col-lg-3 .right-menu ul .num {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-bottom: 2px;
+
+}
+
+
+
+
+.header-section .container .row .col-lg-3 .right-menu ul .num:hover {
+
+    color: #000000;
+    background: #FFF;
+}
+
+
+
+.header-section .container .row .col-lg-3 .right-menu ul .num:hover a{
+
+    color: #000000;
+    
+}
+
+
+
+
+
+
+
+
+/********* *******************
+     header  css end
+*****************************/
+
+
+/********* *******************
+     banner  css start
+*****************************/
+
+
+
+.banner-section {
+
+    background: -webkit-linear-gradient(60deg, #f2fbfa, #fff8eb);
+    background: linear-gradient(60deg, #f2fbfa, #fff8eb);
+    padding: 20px;
+
+
+}
+
+.banner-section .container {}
+
+.banner-section .container .row {
+
+    margin-top: -55px;
+    height: 110vh;
+
+}
+
+.banner-section .container .row .col-lg-5 {}
+
+.banner-section .container .row .col-lg-5 img {}
+
+.banner-section .container .row .col-lg-5 .wave {
+
+    margin: 200px 0px 10px 100px;
+
+}
+
+.banner-section .container .row .col-lg-5 h2 {
+
+
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 0 30px;
+
+}
+
+.banner-section .container .row .col-lg-5 h2 .underliner {}
+
+.banner-section .container .row .col-lg-5 p {
+
+    margin-bottom: 48px;
+}
+
+.banner-section .container .row .col-lg-5 a {
+
+    text-decoration: none;
+    color: black;
+    border: 1px solid #a9e8e0;
+    background: #a9e8e0;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+.banner-section .container .row .col-lg-5 a:hover {
+    background: #0a3c3f;
+    color: #FFF;
+
+}
+
+.banner-section .container .row .col-lg-5 a i {}
+
+
+.banner-section .container .row .col-lg-6 {}
+
+
+.banner-section .container .row .col-lg-6 {
+    margin-left: 95px;
+
+}
+
+
+.banner-section .container .row .col-lg-6 .row {
+    display: flex;
+
+}
+
+.banner-section .container .row .col-lg-6 .row .col-6 {}
+
+.banner-section .container .row .col-lg-6 .row .col-6 .object-cover {
+
+    width: 100%;
+    border: 1px;
+    border-radius: 10px;
+
+}
+
+
+.banner-section .container .row .col-lg-6 .hero-card {
+    position: absolute;
+    bottom: 5%;
+    width: 20%;
+}
+
+.banner-section .container .row .col-lg-6 .card .card-body {
+    padding: 1.5rem !important;
+
+}
+
+
+.banner-section .container .row .col-lg-6 .card .card-body .circle-stack {
+
+    margin-left: 10px;
+}
+
+
+
+.banner-section .container .row .col-lg-6 .card .card-body .circle-stack img {
+    width: 18%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-left: -12px;
+
+}
+
+
+.banner-section .container .row .col-lg-6 .card .card-body h5 {
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.banner-section .container .row .col-lg-6 .card .card-body a {
+    text-decoration: none;
+    color: #FFF;
+    background: #0a3c3f;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+
+.banner-section .container .row .col-lg-6 .card .card-body a .button {
+    border: 1px solid #0a3c3f;
+
+}
+
+
+
+
+
+/********* *******************
+     banner  css end
+*****************************/
+
+
+
+
+/*********************************
+     bookong  section css start
+***********************************/
+
+
+
+
+.booking-section {
+    background: #FFF;
+
+
+}
+
+.booking-section .container {}
+
+.booking-section .container .row {
+
+    margin-top: 80px;
+}
+
+
+.booking-section .container .row .col-9 {
+
+    margin-top: 108px;
+
+}
+
+.booking-section .container .row .col-9 h2 {
+
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+
+.booking-section .container .row .col-9 h2 span {
+
+    background: #d4f3ef;
+}
+
+.booking-section .container .row .col-3 {}
+
+
+.booking-section .container .row .col-3 img {
+
+    width: 100%;
+}
+
+
+
+
+
+/************************  Booking Row ************  */
+
+
+
+
+
+
+.booking-section .container .row-2 {
+    border: 4px solid #0a3c3f;
+    display: flex;
+    border-radius: 10px;
+    height: 13vh;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+}
+
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+    margin-top: -86px;
+}
+
+
+
+.booking-section .container .row-2 .col-lg-5 {
+
+    display: flex;
+}
+
+
+.booking-section .container .row-2 .col-lg-5 .input-group {
+
+    display: flex;
+    border: none;
+
+}
+
+
+
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    background: none;
+
+}
+
+
+
+.booking-section .container .row-2 .col-lg-5 .input-group .serch-doc {
+
+    border: none;
+}
+
+
+.booking-section .container .row-2 .col-lg-3 .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.booking-section .container .row-2 .col-lg-3 .input-group .btn {
+    display: flex;
+}
+
+
+
+.booking-section .container .row-2 .col-lg-4 .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.booking-section .container .row-2 .col-lg-3 .input-group i {
+    margin-left: 5px;
+}
+
+
+.booking-section .container .row-2 .col-lg-4 .input-group .btn {
+    display: flex;
+}
+
+
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.bootstrap-select>select {
+    position: absolute !important;
+    bottom: 0;
+    left: 50%;
+    display: block !important;
+    width: 0.5px !important;
+    height: 100% !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    border: none;
+    z-index: 0 !important;
+}
+
+
+.bootstrap-select.fit-width .dropdown-toggle .filter-option {
+    position: static;
+    display: inline;
+    padding: 0;
+}
+
+
+.bootstrap-select.fit-width .dropdown-toggle .filter-option-inner,
+.bootstrap-select.fit-width .dropdown-toggle .filter-option-inner-inner {
+    display: inline;
+}
+
+
+.bootstrap-select>.dropdown-toggle:after {
+    margin-top: 10px;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+
+.bootstrap-select .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.booking-section .container .row-2 .btn-part {}
+
+
+.booking-section .container .row-2 .btn-part .input-group-btn {
+
+    margin-left: 14px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+
+
+.booking-section .container .row-2 .btn-part .input-group-btn .button {
+
+    background: #a9e8e0;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 600;
+    padding-bottom: 20px !important;
+   
+}
+
+
+
+.booking-section .container .row-2 .btn-part .input-group .button:hover {
+
+    background: #0a3c3f;
+    color: #fff;
+
+}
+
+
+
+.booking-section .container  .btn-row {
+
+
+}
+
+
+.booking-section .container  .btn-row .mobile-btn {
+
+    margin-top: -50px;
+}
+
+
+.booking-section .container .btn-row .mobile-btn .input-group-btn {
+
+    margin-left: 50px;
+    border-radius: 0px 5px 5px 0px;
+    width: 70%;
+
+}
+
+
+.booking-section .container .btn-row .mobile-btn .input-group-btn .button {
+
+    background: #a9e8e0;
+
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 600;
+    padding-bottom: 20px !important;
+   
+
+}
+
+.booking-section .container .btn-row .mobile-btn .input-group-btn .button:hover {
+
+    background: #0a3c3f;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+/*******************************
+     bookong section css end
+*********************************/
+
+
+
+/*******************************
+     service section css start
+*********************************/
+
+
+.service-section {
+
+    background: #f9f6e9;
+    margin-top: 100px;
+
+}
+
+.service-section .container {
+    padding-bottom: 70px;
+
+}
+
+.service-section .container .row {}
+
+.service-section .container .row .col-12 {
+
+    text-align: center;
+}
+
+.service-section .container .row .col-12 .title {
+    padding: 60px 0px 48px 0px;
+}
+
+.service-section .container .row .col-12 .title h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+
+
+}
+
+.service-section .container .row .col-12 .title p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+    color: #000000;
+
+}
+
+
+.service-section .container .row .services-category-item {
+    position: relative;
+}
+
+.service-section .container .services-categories {
+
+    transition: 0.5s;
+
+
+}
+
+.service-section .container .services-categories:hover {
+
+    margin-left: -25px;
+    transition: 0.5s;
+
+}
+
+.service-section .container .row .services-category-item a {
+
+    text-decoration: none;
+
+
+}
+
+
+.service-section .container .row .services-category-item .card {
+    border: none;
+    border-radius: 6px;
+}
+
+.service-section .container .row .services-category-item .card .card-body {}
+
+
+.service-section .container .row .services-category-item .card .card-body:hover {
+    background: #0a3c3f;
+    color: #FFF;
+
+}
+
+
+
+
+.service-section .container .row .services-category-item .card .card-body h6 {
+    margin: -10px 0px 0px -160px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.service-section .container .row .services-category-item .card .card-body h4 {
+
+    width: 102%;
+    padding: 28px 0px 10px 0px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+.service-section .container .row .services-category-item .card .card-body h5 {
+    padding: 0px 5px 25px 5px;
+    font-size: 13px;
+    line-height: 26px;
+
+}
+
+
+
+
+/*******************************
+     service section css end
+*********************************/
+
+
+
+
+/*******************************
+     departments section css start
+*********************************/
+
+.departments-section {
+
+    background: #fff;
+    display: none;
+}
+
+.departments-section .container {}
+
+.departments-section .container .row {}
+
+.departments-section .container .row .col-12 {
+
+    text-align: center;
+}
+
+.departments-section .container .row .col-12 .title {
+    padding: 130px 0px 48px 0px;
+}
+
+.departments-section .container .row .col-12 .title h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+
+
+}
+
+.departments-section .container .row .col-12 .title p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+    color: #000000;
+
+}
+
+
+.departments-section .container .row .col-md-6 img {
+
+    width: 100%;
+}
+
+.rounded-6 {
+    border-radius: 0.6rem !important;
+}
+
+
+
+/*******************************
+     departments section css end
+*********************************/
+
+
+
+
+/************************************
+     doctor-lists section css start
+************************************/
+
+
+
+.doctor-lists {
+    background: #FFF !important;
+}
+
+
+.doctor-lists .container {
+    margin-top: 100px;
+}
+
+.doctor-lists .container .row {}
+
+
+
+.doctor-lists .container .row .text-center {}
+
+.doctor-lists .container .row .text-center h2 {
+
+    margin-bottom: 3rem !important;
+
+}
+
+
+
+.doctor-lists .container .scroll-detect {}
+
+.doctor-lists .container .scroll-detect .row {
+    transition: 0.5s;
+
+}
+
+
+.doctor-lists .container .scroll-detect .row:hover {
+
+    margin-left: -20px;
+    transition: 0.5s;
+
+}
+
+
+.doctor-lists .container .scroll-detect .row .col {}
+
+.doctor-lists .container .scroll-detect .row .col img {
+
+    width: 100%;
+
+}
+
+.doctor-lists .container .scroll-detect .row .col h4 {
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.doctor-lists .container .scroll-detect .row .col .fw-light {
+
+    font-family: 'DM Sans', sans-serif;
+
+    color: #919395;
+    font-weight: 500 !important;
+
+}
+
+
+
+
+
+
+/***********************************
+     doctor-lists section css end
+************************************/
+
+
+
+
+
+
+/************************************
+     3-doctor- section css start
+************************************/
+
+.doctors-3-section {
+    background-color: #0a3c3f;
+
+    margin-top: 150px !important;
+
+}
+
+.doctors-3-section .container {}
+
+.doctors-3-section .container .row {}
+
+.doctors-3-section .container .row .col-6 {}
+
+.doctors-3-section .container .row .col-6 h3 {}
+
+.doctors-3-section .container .row .col-6 .text-smaller {
+
+    color: #a9e5d6;
+
+}
+
+.doctors-3-section .container img {
+
+    width: 100%;
+}
+
+.doctors-3-section .container .row .col-lg-5 {}
+
+.doctors-3-section .container .row .col-lg-5 img {
+
+    margin-left: -33px;
+    margin-bottom: -27px;
+    width: 8%;
+
+}
+
+.doctors-3-section .container .row .col-lg-5 h3 {
+
+    color: #FFF;
+
+}
+
+.doctors-3-section .container .row .col-lg-5 p {
+    color: #FFF;
+
+}
+
+
+
+/************************************
+     3-doctor- section css end
+************************************/
+
+
+
+
+
+/************************************
+     Newsletter- section css start
+************************************/
+
+.newsletter-section {
+
+    margin-top: 30px;
+
+
+}
+
+.newsletter-section .container {}
+
+.newsletter-section .container .row {}
+
+.newsletter-section .container .row .col-lg-5 {}
+
+.newsletter-section .container .row .col-lg-5 .widget-img {
+    margin-top: 35px;
+}
+
+
+.newsletter-section .container .row .col-lg-5 .widget-img::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #0a3c3f;
+    border-radius: 12px;
+}
+
+
+
+.newsletter-section .container .row .col-lg-5 .widget-img img {
+
+    width: 100%;
+}
+
+
+
+.newsletter-section .container .row .col-lg-5 .wave {
+
+    margin-left: -33px;
+    margin-bottom: -27px;
+    width: 8%;
+}
+
+.newsletter-section .container .row .col-lg-5 h2 {}
+
+.newsletter-section .container .row .col-lg-5 p {
+
+    font-weight: 400;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+
+
+.newsletter-section .container .row .col-lg-5 .widget {
+    background: #d4f3ef;
+    border: 1px solid #d4f3ef;
+    border-radius: 35px;
+}
+
+.newsletter-section .container .row .col-lg-5 .widget .form {}
+
+
+.newsletter-section .container .row .col-lg-5 .widget .form .form-control {
+
+    padding: 10px 0px;
+
+}
+
+.newsletter-section .container .row .col-lg-5 .widget .form .button {
+    padding: 10px 30px;
+    background: #0a3c3f;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+
+
+.newsletter-section .container .row .col-lg-5 .widget .form .button:hover {
+    background: #04181a;
+}
+
+
+
+/************************************
+     Newsletter- section css end
+************************************/
+
+
+
+/************************************
+     contact- section css start
+************************************/
+
+.contact-section {
+
+    background: #0a3c3f;
+    margin-top: 130px;
+    padding: 50px 0px 100px 0px;
+
+}
+
+.contact-section .container {}
+
+.contact-section .container .row {}
+
+.contact-section .container .row .col-lg-4 {}
+
+.contact-section .container .row .col-lg-4 .wave {
+
+    margin-left: -33px;
+    margin-bottom: -27px;
+    width: 10%;
+
+}
+
+.contact-section .container .row .col-lg-4 h3 {
+
+    color: #fff;
+}
+
+.contact-section .container .row .col-lg-4 p {
+    color: #fff;
+    padding: 15px 0px;
+    width: 99%;
+}
+
+.contact-section .container .row .col-lg-4 .divider-text {
+    color: #a8aaac;
+    padding: 8px 0px 4px 0px;
+}
+
+
+
+.contact-section .container .row .col-lg-4 .fs-6 {
+
+    color: #9fa0a1;
+}
+
+
+.contact-section .container .row .col-lg-4 h2 {
+    color: #fff;
+
+}
+
+
+
+.contact-section .container .row .col-lg-6 {}
+
+.contact-section .container .row .col-md-6 form {
+
+    margin-top: 40px;
+}
+
+.contact-section .container .row .col-md-6 form .mb-3 {
+    margin: 10px 0px;
+
+}
+
+.contact-section .container .row .col-md-6 form .mb-3 .form-control {
+
+    background: #0a3c3f;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #9fa0a1;
+    padding: 15px 0px 15px 5px;
+}
+
+
+.contact-section .container .row .col-md-6 form .mb-3 .form-control::placeholder {
+    color: #9fa0a1;
+
+}
+
+
+.contact-section .container .row .col-md-6 form .mb-3 .message {
+    padding-bottom: 60px;
+
+}
+
+
+
+.contact-section .container .row .col-md-6 form .btn {
+    background: #FFF;
+    margin-top: 18px;
+    padding: 7px 20px;
+
+}
+
+.contact-section .container .row .col-md-6 form .btn:hover {
+    background: #a9e8e0;
+
+
+}
+
+
+
+.contact-section .container .row .col-md-6 form .btn a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+/************************************
+     contact- section css end
+************************************/
+
+
+
+
+
+
+/************************************
+     footer- section css start
+************************************/
+
+.footer-section {
+
+    background: #0a3c3f !important;
+
+}
+
+.footer-section .container {}
+
+.footer-section .container .footer-widgets-wrap {}
+
+
+.footer-section .container .footer-widgets-wrap .row {}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 {}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget {
+
+    padding-top: 80px;
+}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget h4 {
+
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget ul {
+
+    list-style-type: none;
+
+
+}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget ul li {
+    color: #ddd6d6;
+
+    margin-left: -33px;
+    line-height: 32px;
+}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget ul li a {
+
+    text-decoration: none;
+    color: #ddd6d6;
+    font-weight: 500;
+
+
+}
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget ul li a:hover {
+
+
+    color: #fff;
+
+}
+
+
+
+.footer-section .container .footer-widgets-wrap .row .col-lg-3 .widget ul li i {
+
+
+    color: #ddd6d6;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 25px 5px 35px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ****************** Copyrights ******************** */
+
+
+
+
+
+.footer-section .copyrights {
+
+    padding: 40px 0px;
+
+}
+
+.footer-section .copyrights .container {}
+
+.footer-section .copyrights .container .row {}
+
+
+.footer-section .copyrights .container .row .col-md-auto {
+
+
+    color: #56797b;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+
+.footer-section .copyrights .container .row .col-md-auto .copyright-links {}
+
+
+
+
+.footer-section .copyrights .container .row .col-md-auto .copyright-links a {
+
+    text-decoration: none;
+    color: #8c9ca3;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+
+
+/************************************
+     footer- section css end
+************************************/

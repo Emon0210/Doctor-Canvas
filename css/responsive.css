@@ -1,0 +1,608 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .booking-section .container .btn-row {
+
+        display: none;
+    }
+
+
+
+
+}
+
+/* ********************************************************************************************************* */
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+
+
+
+
+
+    .booking-section .container .btn-row {
+
+        display: none;
+    }
+
+
+
+
+
+
+
+}
+
+
+/* ********************************************************************************************************* */
+
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+
+
+
+
+    .booking-section .container .btn-row {
+
+        display: none;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* ********************************************************************************************************* */
+
+
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+
+/* ********************************************************************************************************* */
+
+
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+
+
+    /********* *******************
+     Global  css start
+*****************************/
+
+
+
+    .container {
+
+        width: 90% !important;
+    }
+
+
+
+
+    /********* *******************
+ header  css start
+*****************************/
+
+
+    .header-section .container .row .logo img {
+        padding-left: 125px !important;
+    }
+
+
+
+    .header-section .container .row .col-lg-6 .mid-menu ul {
+
+        /* flex-direction: column !important; */
+
+    }
+
+
+    .header-section .container .row .col-lg-6 .mid-menu {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .header-section .container .row .col-lg-6 .mid-menu ul li {
+
+
+        margin-right: 10px !important;
+    }
+
+
+
+    .header-section .container .row .col-lg-6 .mid-menu ul li a {
+
+        font-size: 15px !important;
+
+    }
+
+
+
+    .header-section .container .row .col-lg-3 .right-menu {
+        margin-top: -25px;
+        margin-right: 135px;
+    }
+
+    .header-section .container .row .col-lg-3 .right-menu ul {
+
+        margin-left: 8px;
+    }
+
+    .header-section .container .row .col-lg-3 .right-menu ul li {
+        width: 80%;
+
+    }
+
+
+
+    /********* *******************
+ banner  css start
+*****************************/
+
+    .banner-section .container .row .col-lg-6 .hero-card {
+        display: none;
+
+    }
+
+    .banner-section .container .row .col-lg-5 h2 {
+
+        margin-top: 50px !important;
+        width: 90%;
+    }
+
+
+
+    .banner-section .container .row .col-lg-6 {
+        margin-left: -10px !important;
+        margin-top: 10px !important;
+        margin-top: -50px !important;
+    }
+
+
+
+    /*********************************
+ bookong  section css start
+***********************************/
+
+    .booking-section {
+        margin-top: 170px;
+        padding-bottom: 115px;
+    }
+
+    .booking-section .container .row {
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .booking-section .container .row .col-3 img {
+        width: 120% !important;
+        height: 30vh;
+    }
+
+
+    .booking-section .container .row .col-9 {
+        margin-top: 40px !important;
+    }
+
+
+    .booking-section .container .row .col-9 h2 {
+
+        font-size: 30px;
+    }
+
+
+    .booking-section .container .row-2 {
+        flex-direction: column !important;
+        height: 40vh !important;
+        width: 90% !important;
+        margin-left: 54px;
+        padding-top: 15px;
+    }
+
+
+   
+
+
+
+    .booking-section .container .row-2 .btn-part .input-group-btn .button {
+        display: none;
+
+    }
+
+
+    .booking-section .container .btn-row .mobile-btn .input-group-btn {
+        margin-left: 55px !important;
+      
+        width: 90% !important;
+    }
+
+
+
+
+
+
+
+
+    /********* *******************
+ serrvice  css start
+*****************************/
+
+
+
+    .service-section .container .row .col-12 .title p {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        margin-left: 70px;
+        width: 70% !important;
+    }
+
+    .service-section .container .row .services-category-item .card {
+        margin-left: 115px;
+
+        width: 50%;
+    }
+
+
+    /********* *******************
+ doctors-list  css start
+*****************************/
+
+
+
+    .doctor-lists .container .scroll-detect .row .col {
+
+        margin-left: 115px;
+
+    }
+
+
+    .doctor-lists .container .scroll-detect .second .col {
+
+        padding-left: 130px;
+
+    }
+
+
+    .doctor-lists .container .scroll-detect .row .col img {
+
+        width: 50% !important;
+        height: 42vh;
+    }
+
+
+
+    .doctor-lists .container .scroll-detect .second .col img {
+
+        width: 70% !important;
+
+    }
+
+
+
+
+    /********* *******************
+ doctors-3-list  css start
+*****************************/
+
+
+    .doctors-3-section .container .row .col-lg-5 h3 {
+
+        margin-bottom: 25px;
+    }
+
+
+    .doctors-3-section .container .row .col-lg-5 p {
+
+        margin-bottom: 25px !important;
+    }
+
+
+
+
+
+    /********* *******************
+ footer   css start
+*****************************/
+
+
+    .footer-section .container .footer-widgets-wrap .row .col-md-4 {
+        width: 33%;
+    }
+
+
+    .footer-section .container .footer-widgets-wrap .row .col-md-12 {}
+
+
+    .footer-section .container .footer-widgets-wrap .row .col-md-12 .widget h4 {
+        text-align: center;
+    }
+
+    .footer-section .container .footer-widgets-wrap .row .col-md-12 .widget ul {
+
+        margin-left: 120px;
+    }
+
+
+
+    .footer-section .copyrights .container .row .col-md-auto {
+
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+
+
+
+}
+
+
+
+/* ********************************************************************************************************* */
+
+
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+
+
+    /********* *******************
+     Global  css start
+*****************************/
+
+
+
+    .container {
+
+        width: 80% !important;
+    }
+
+
+
+
+
+
+    /********* *******************
+     header  css start
+*****************************/
+
+
+    .header-section .container .row .logo img {
+        padding-left: 54px !important;
+    }
+
+
+
+    .header-section .container .row .col-lg-6 .mid-menu ul {
+
+        flex-direction: column !important;
+
+    }
+
+    .header-section .container .row .col-lg-3 .right-menu {
+        margin-top: -25px;
+    }
+
+    .header-section .container .row .col-lg-3 .right-menu ul {
+
+        margin-left: 8px;
+    }
+
+    .header-section .container .row .col-lg-3 .right-menu ul li {
+        width: 80%;
+
+    }
+
+
+
+    /********* *******************
+     banner  css start
+*****************************/
+
+    .banner-section .container .row .col-lg-6 .hero-card {
+        display: none;
+
+    }
+
+    .banner-section .container .row .col-lg-5 h2 {
+
+        margin-top: 50px !important;
+    }
+
+
+
+    .banner-section .container .row .col-lg-6 {
+        margin-left: -10px !important;
+        margin-top: 10px !important;
+        margin-top: -120px !important;
+    }
+
+
+
+    /*********************************
+     bookong  section css start
+***********************************/
+
+    .booking-section {
+
+        padding-bottom: 115px;
+    }
+
+    .booking-section .container .row {
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .booking-section .container .row .col-3 img {
+        width: 155% !important;
+        height: 30vh;
+    }
+
+
+    .booking-section .container .row .col-9 {
+        margin-top: 40px !important;
+    }
+
+
+    .booking-section .container .row .col-9 h2 {
+
+        font-size: 30px;
+    }
+
+    .booking-section .container .row-2 {
+
+        flex-direction: column;
+        height: 40vh !important;
+        width: 130% !important;
+        margin-left: -25px;
+        padding-top: 15px;
+    }
+
+
+    .booking-section .container .row-2 .btn-part .input-group-btn .button {
+        display: none;
+
+    }
+
+
+    .doctor-lists .container .scroll-detect .row .col {
+
+        margin-left: 30px;
+
+    }
+
+    .doctor-lists .container .scroll-detect .row .col img {
+        width: 80% !important;
+    }
+
+
+    /* ****** doctors-3-section ******** */
+
+
+    .doctors-3-section .container .row .col-lg-5 h3 {
+
+        margin-bottom: 25px;
+    }
+
+
+    .doctors-3-section .container .row .col-lg-5 p {
+
+        margin-bottom: 25px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* ************************************************* END *************************************************** */
+
+
+
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 50px) and (max-width: 319px) {
+
+    /* CSS */
+
+
+    .booking-section .container .row-2 .btn-part .input-group-btn .button {
+        display: none;
+
+    }
+
+
+
+
+
+  }
