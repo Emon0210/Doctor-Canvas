@@ -8,7 +8,7 @@
     /* CSS */
 
 
-
+ 
 
 
 
@@ -47,6 +47,35 @@
 
 
 
+
+
+
+
+
+
+
+/******************************** header secetion************** */
+
+
+
+.header-section .container .row {
+  
+    width: 50% !important;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************** booking secetion************** */
+
+
+
     .booking-section .container .btn-row {
 
         display: none;
@@ -76,12 +105,41 @@
 
 
 
+/******************************** baner secetion************** */
+
+    .banner-section .container .row .col-lg-5 .wave {
+       
+        margin-top: 315px !important;
+    }
 
 
-    .booking-section .container .btn-row {
+    .banner-section .container .row .col-lg-5 h2 {
+       
+        margin-top: 65px !important;
+
+    }
+
+
+
+
+
+/******************************** booking secetion************** */
+
+
+
+
+    
+    .booking-section .container .btn-part  {
 
         display: none;
     }
+
+
+
+    /* .booking-section .container .btn-row {
+
+        display: none;
+    } */
 
 
 
@@ -105,6 +163,11 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
     /* CSS */
+
+
+ 
+
+
 
 }
 
